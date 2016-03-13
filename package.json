@@ -1,0 +1,31 @@
+{
+  "name": "react-micro-flyout",
+  "version": "0.1.0",
+  "description": "A react component that provides minimum feature for flyout",
+  "main": "lib/flyout.js",
+  "files": ["README.md", "lib", "src"],
+  "author": "Kazuhito Hokamura",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hokaccha/react-micro-flyout.git"
+  },
+  "homepage": "https://github.com/hokaccha/react-micro-flyout",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps",
+    "prepublish": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
